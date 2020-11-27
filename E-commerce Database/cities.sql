@@ -1,0 +1,4 @@
+CREATE TABLE cities(
+	city_id INT IDENTITY(1,1) PRIMARY KEY,
+	city NVARCHAR(25)
+)

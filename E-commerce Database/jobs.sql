@@ -1,0 +1,4 @@
+CREATE TABLE jobs(
+	job_id INT IDENTITY(1,1) PRIMARY KEY,
+	job_name NVARCHAR(50) NOT NULL
+)
