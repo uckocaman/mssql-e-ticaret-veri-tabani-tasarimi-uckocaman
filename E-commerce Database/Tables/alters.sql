@@ -10,7 +10,7 @@ ADD CONSTRAINT customer_fk FOREIGN KEY(customer_id) REFERENCES customers(id),
 ALTER TABLE products
 ADD CONSTRAINT color_fk FOREIGN KEY(color_id) REFERENCES colors(color_id),
 	CONSTRAINT brand_fk FOREIGN KEY(brand_id) REFERENCES brands(brand_id);
-	--,CONSTRAINT def_desc DEFAULT product.product_name FOR description; -- DENEME / ÇALIÞMADI ARAÞTIRIYORUM :)
+	--,CONSTRAINT def_desc DEFAULT product.product_name FOR description; -- DENEME / Ã‡ALIÃžMADI ARAÃžTIRIYORUM :)
 
 ALTER TABLE products_categories
 ADD CONSTRAINT product_fk FOREIGN KEY(product_id) REFERENCES products(product_id),
